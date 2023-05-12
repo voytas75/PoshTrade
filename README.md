@@ -34,7 +34,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 10. `Get-StochasticOscillator`
 11. `Get-TEMA`
 12. `Get-VWAP`
-13. `Get-WMA`
+13. [`Get-WMA`](/code/Get-WMA.ps1)
 
 ## Knowledge
 

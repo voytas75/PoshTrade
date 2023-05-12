@@ -20,3 +20,9 @@ function Get-WMA {
 
     return $wmaValues
 }
+
+<# 
+$dataPoints = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Get-WMA -DataPoints $dataPoints -Period 3
+
+#>
