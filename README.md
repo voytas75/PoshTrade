@@ -2,6 +2,8 @@
 
 PoshTrade is a collection of PowerShell scripts that implement various trading algorithms for stock and other financial markets. The algorithms are designed to analyze market data and make buy or sell decisions based on certain criteria.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A6KYBUS)
+
 ## Installation
 
 To use PoshTrade, you'll need to have PowerShell installed on your machine. You can download PowerShell from the Microsoft website.
