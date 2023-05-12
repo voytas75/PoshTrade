@@ -20,6 +20,22 @@ To use PoshTrade, you'll need to provide it with market data in the form of CSV 
 
 The PoshTrade repository will soon include several scripts that implement different trading algorithms. For now, the repository is in its initial state and there are no scripts available.
 
+## Functions
+
+1. `Get-BollingerBands`
+2. `Get-DEMA`
+3. `Get-EMA`
+4. `Get-FibonacciRetracement`
+5. `Get-IchimokuCloud`
+6. `Get-MACD`
+7. `Get-OBV`
+8. `Get-RSI`
+9. `Get-SMA`
+10. `Get-StochasticOscillator`
+11. `Get-TEMA`
+12. `Get-VWAP`
+13. `Get-WMA`
+
 ## Knowledge
 
 1. [Technical indicators](./TechnicalIndicators.md)
