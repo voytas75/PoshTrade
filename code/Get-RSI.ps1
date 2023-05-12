@@ -23,11 +23,15 @@ function Get-RSI {
         }
         else {
             $upValues.Add(0)
-            $downValues.Add($diff -as [math]::Abs)
+            $downValues.Add([math]::Abs($diff))
         }
         if ($i -eq $Period) {
-            $averageGain = [Math]::Round(($upValues | Measure-Object -Property 'Average').Average, 2)
-            $averageLoss = [Math]::Round(($downValues | Measure-Object -Property 'Average').Average, 2)
+            if ($upValues.Count -ne 0) {
+                $averageGain = [Math]::Round(($upValues | ForEach-Object {$_} | Measure-Object).Average, 2)
+            }
+            if ($downValues.Count -ne 0) {
+                $averageLoss = [Math]::Round(($downValues | ForEach-Object {$_} | Measure-Object).Average, 2)
+            }
             $rs = $averageGain / $averageLoss
             $rsi = 100 - (100 / (1 + $rs))
             $rsiValues.Add($rsi)
