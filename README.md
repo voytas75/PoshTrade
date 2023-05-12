@@ -22,18 +22,18 @@ The PoshTrade repository will soon include several scripts that implement differ
 
 ## Functions
 
-1. `Get-BollingerBands`
-2. `Get-DEMA`
-3. `Get-EMA`
-4. `Get-FibonacciRetracement`
-5. `Get-IchimokuCloud`
-6. `Get-MACD`
-7. `Get-OBV`
-8. `Get-RSI`
-9. `Get-SMA`
-10. `Get-StochasticOscillator`
-11. `Get-TEMA`
-12. `Get-VWAP`
+1. [`Get-BollingerBands`](/code/Get-BollingerBands.ps1)
+2. [`Get-DEMA`](/code/Get-DEMA.ps1)
+3. [`Get-EMA`](/code/Get-EMA.ps1)
+4. [`Get-FibonacciRetracement`](/code/Get-FibonacciRetracement.ps1)
+5. [`Get-IchimokuCloud`](/code/Get-IchimokuCloud.ps1)
+6. [`Get-MACD`](/code/Get-MACD.ps1)
+7. [`Get-OBV`](/code/Get-OBV.ps1)
+8. [`Get-RSI`](/code/Get-RSI.ps1)
+9. [`Get-SMA`](/code/Get-SMA.ps1)
+10. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1)
+11. [`Get-TEMA`](/code/Get-TEMA.ps1)
+12. [`Get-VWAP`](/code/Get-VWAP.ps1)
 13. [`Get-WMA`](/code/Get-WMA.ps1)
 
 ## Knowledge
