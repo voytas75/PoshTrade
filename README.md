@@ -31,4 +31,4 @@ PoshTrade is released under the MIT license. See the LICENSE file for more infor
 
 ## Contact
 
-If you have any questions or comments about PoshTrade, please contact us at your-email@domain.com or through GitHub. We'd love to hear from you!
+If you have any questions or comments about PoshTrade, please contact us through GitHub. We'd love to hear from you!
