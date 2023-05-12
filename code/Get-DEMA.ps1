@@ -17,3 +17,8 @@ function Get-DEMA {
 
     return $demaValues
 }
+
+<# 
+$data = @(50.10, 51.20, 52.30, 53.40, 54.50, 55.60, 56.70, 57.80, 58.90, 60.00, 61.10, 62.20, 63.30, 64.40, 65.50)
+Get-DEMA -DataPoints $data -Period 5
+#>

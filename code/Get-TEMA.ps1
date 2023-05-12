@@ -18,3 +18,11 @@ function Get-TEMA {
 
     return $temaValues
 }
+
+<# 
+$dataPoints = 1..20 | ForEach-Object {Get-Random -Minimum 1 -Maximum 100}
+$period = 10
+$temaValues = Get-TEMA -DataPoints $dataPoints -Period $period
+Write-Output $temaValues
+
+#>

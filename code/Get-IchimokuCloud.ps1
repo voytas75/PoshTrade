@@ -60,3 +60,18 @@ function Get-IchimokuCloud {
     $result
 }
 
+<# 
+# Define arrays of high and low values
+$highValues = 1.2, 1.5, 1.8, 1.6, 1.9, 2.1, 2.3, 2.2, 2.4, 2.5
+$lowValues = 1.0, 1.3, 1.4, 1.2, 1.6, 1.8, 2.0, 1.9, 2.1, 2.2
+
+# Call the Get-IchimokuCloud function
+$cloud = Get-IchimokuCloud -HighValues $highValues -LowValues $lowValues -ConversionPeriod 9 -BasePeriod 26 -LaggingPeriod 52 -Displacement 0
+
+# Access the results
+$cloud.ConversionLine
+$cloud.BaseLine
+$cloud.LeadLineA
+$cloud.LeadLineB
+
+#>

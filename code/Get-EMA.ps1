@@ -17,3 +17,10 @@ function Get-EMA {
 
     return $emaValues
 }
+
+<# 
+$dataPoints = 3.5, 3.8, 3.6, 3.9, 3.7, 3.5, 3.3, 3.6, 3.8, 4.1, 4.2, 4.5, 4.2, 4.0, 4.1
+$period = 10
+Get-EMA -DataPoints $dataPoints -Period $period
+
+#>

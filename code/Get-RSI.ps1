@@ -52,3 +52,14 @@ function Get-RSI {
 
     return $rsiValues
 }
+
+<# 
+$data = @(34.39, 34.24, 33.68, 33.50, 33.75, 33.25, 32.20, 32.29, 32.31, 33.35, 34.39, 35.35, 35.15, 35.16, 35.23, 34.80, 35.12, 34.87, 34.80, 34.20, 34.34, 34.26, 34.17, 34.07, 33.40, 33.60, 33.26, 32.75, 32.60, 32.69)
+
+# Call the Get-RSI function with a period of 14
+$rsi = Get-RSI -DataPoints $data -Period 14
+
+# Output the results
+$rsi
+
+#>
