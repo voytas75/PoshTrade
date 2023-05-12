@@ -10,7 +10,6 @@ To use PoshTrade, you'll need to have PowerShell installed on your machine. You 
 
 Once you have PowerShell installed, you can clone the PoshTrade repository to your local machine using the following command:
 
-
 ```git
 git clone https://github.com/voytas75/PoshTrade.git
 ```
@@ -20,6 +19,10 @@ git clone https://github.com/voytas75/PoshTrade.git
 To use PoshTrade, you'll need to provide it with market data in the form of CSV files. You can use your own data or download data from a source like Yahoo Finance or Alpha Vantage.
 
 The PoshTrade repository will soon include several scripts that implement different trading algorithms. For now, the repository is in its initial state and there are no scripts available.
+
+## Knowledge
+
+1. [Technical indicators](technicalindicators.md)
 
 ## Contributing
 
