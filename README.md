@@ -22,7 +22,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 
 ## Knowledge
 
-1. [Technical indicators](technicalindicators.md)
+1. [Technical indicators](./TechnicalIndicators.md)
 
 ## Contributing
 
