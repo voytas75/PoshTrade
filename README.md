@@ -47,9 +47,9 @@ The PoshTrade repository will soon include several scripts that implement differ
 5. [Fundamental Analysis](./FundamentalAnalysis.md)
 6. [Quantitative Skills](./QuantitativeMarkets.md)
 7. [Risk Management](./RiskManagement.md)
-8. Market Data and APIs
+8. [Market Data and APIs](./MarketDanaAPIs.md)
 9. [Backtesting and Simulation](./BacktestingSimulation.md)
-10. Regulatory and Legal Considerations
+10. [Regulatory and Legal Considerations](./Regulatory.md)
 
 ## Contributing
 
