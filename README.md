@@ -8,7 +8,9 @@ PoshTrade is a collection of PowerShell scripts that implement various trading a
 
 To use PoshTrade, you'll need to have PowerShell installed on your machine. You can download PowerShell from the Microsoft website.
 
-Once you have PowerShell installed, you can clone the PoshTrade repository to your local machine using the following command:
+Additionally, you will also need to have Git software installed to clone the PoshTrade repository to your local machine. If you don't have Git installed, you can download it from the official Git website.
+
+Once you have both PowerShell and Git installed, you can clone the PoshTrade repository to your local machine using the following command:
 
 ```git
 git clone https://github.com/voytas75/PoshTrade.git
