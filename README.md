@@ -48,7 +48,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 6. [Quantitative Skills](./QuantitativeMarkets.md)
 7. [Risk Management](./RiskManagement.md)
 8. Market Data and APIs
-9. Backtesting and Simulation
+9. [Backtesting and Simulation](./BacktestingSimulation.md)
 10. Regulatory and Legal Considerations
 
 ## Contributing
