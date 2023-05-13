@@ -41,6 +41,15 @@ The PoshTrade repository will soon include several scripts that implement differ
 ## Knowledge
 
 1. [Technical indicators](./TechnicalIndicators.md)
+2. Financial Markets
+3. Trading Strategies
+4. Technical Analysis
+5. Fundamental Analysis
+6. Quantitative Skills
+7. Risk Management
+8. Market Data and APIs
+9. Backtesting and Simulation
+10. Regulatory and Legal Considerations
 
 ## Contributing
 
