@@ -39,6 +39,8 @@ The PoshTrade repository will soon include several scripts that implement differ
 13. [`Get-WMA`](/code/Get-WMA.ps1)
 14. [`Get-MovingAverageRibbon`](./code/Get-MovingAverageRibbon.ps1)
 15. [`Get-ROC`](./code/Get-ROC.ps1)
+16. [`Get-WilliamsRIndicator`](./code/Get-WilliamsRIndicator.ps1)
+17. [`Get-CCI`](./code/Get-CCI.ps1)
 
 ## Knowledge
 
