@@ -16,7 +16,7 @@ Here are some common types of trading strategies:
 
 When developing a trading strategy, it is essential to consider various factors such as the risk-reward ratio, position sizing, and stop-loss levels. Traders also need to be mindful of market conditions and adjust their strategies accordingly. Finally, backtesting and simulation can be useful tools for evaluating the performance of a trading strategy before deploying it in live trading.
 
-## Source
+## Sources
 
 - Investopedia: [Trading Strategy](https://www.investopedia.com/terms/t/trading-strategy.asp)
 - Trading [Strategy Guides](https://tradingstrategyguides.com/)

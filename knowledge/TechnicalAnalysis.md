@@ -17,3 +17,11 @@ Some of the common tools and techniques used in technical analysis include:
 One of the key principles of technical analysis is that price movements are not entirely random, and they tend to follow trends and patterns. Technical analysts believe that these trends and patterns can be used to predict future price movements, and they use various tools and techniques to identify them.
 
 However, it is important to note that technical analysis is not always accurate and can be influenced by various factors such as market sentiment and economic data. Traders should also be aware of the limitations of technical analysis and use it in conjunction with other forms of analysis such as fundamental analysis and quantitative analysis.
+
+## Sources
+
+- Investopedia: [Technical Analysis](https://www.investopedia.com/terms/t/technicalanalysis.asp)
+- StockCharts.com: [Technical Analysis](https://stockcharts.com/school/doku.php?id=chart_school:overview:technical_analysis)
+- TradingView: [Technical Analysis](https://www.tradingview.com/technical-analysis/)
+- Investopedia: [Introduction to Chart Patterns](https://www.investopedia.com/trading/introduction-to-chart-patterns/)
+- Fidelity: [Understanding Technical Analysis](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/overview)
