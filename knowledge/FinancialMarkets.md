@@ -16,4 +16,7 @@ Overall, financial markets play a critical role in the global economy by facilit
 
 - Investopedia: [Financial Markets](https://www.investopedia.com/terms/f/financialmarket.asp)
 - IMF: [What Are Financial Markets?](https://www.imf.org/external/pubs/ft/fandd/basics/markets.htm)
-- The Balance: [Types of Financial Markets and Their Roles](https://www.thebalance.com/types-of-financial-markets-and-their-roles-4048170)
+- [Bloomberg](https://www.bloomberg.com/)
+- [Yahoo Finance](https://finance.yahoo.com/)
+- [MarketWatch](https://www.marketwatch.com/)
+- [Financial Times](https://www.ft.com/)
