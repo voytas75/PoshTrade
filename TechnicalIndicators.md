@@ -18,6 +18,10 @@
 
 9. On-Balance Volume (OBV): A tool used to measure buying and selling pressure based on volume.
 
+10. Momentum indicators: Other momentum indicators you could consider include the Moving Average Ribbon, the Rate of Change (ROC) indicator, and the Williams %R indicator.
+
+11. Oscillators: In addition to the Stochastic Oscillator, other oscillators you could use include the Commodity Channel Index (CCI), the Relative Vigor Index (RVI), and the Money Flow Index (MFI).
+
 ## Potential strengths and weaknesses
 
 Some of the most commonly used technical indicators in algorithmic trading include Moving Averages, Relative Strength Index (RSI), Stochastic Oscillator, Moving Average Convergence Divergence (MACD), and Bollinger Bands.
