@@ -2,6 +2,8 @@ function Get-Newsdata {
     param(
         [string]$apiKey,
         [string]$q,
+        [string]$country,
+        [string]$category,
         [string]$sources,
         [string]$domains,
         [string]$excludeDomains,
@@ -9,26 +11,24 @@ function Get-Newsdata {
         [string]$to,
         [string]$language,
         [string]$sortBy,
-        [string]$pageSize,
-        [string]$page,
-		[string]$category = "business,technology,top"
+        [string]$page
     )
 
     $uri = "https://newsdata.io/api/1/news"
 
     $queryParameters = @{
-        apiKey = $apiKey
-        q = $q
-        sources = $sources
-        domains = $domains
+        apiKey         = $apiKey
+        q              = $q
+        country        = $country
+        sources        = $sources
+        domains        = $domains
         excludeDomains = $excludeDomains
-        from = $from
-        to = $to
-        language = $language
-        sortBy = $sortBy
-        pageSize = $pageSize
-        page = $page
-		cetegory = $category
+        from           = $from
+        to             = $to
+        cetegory       = $category
+        language       = $language
+        sortBy         = $sortBy
+        page           = $page
     }
 
     $queryString = [System.Web.HttpUtility]::ParseQueryString("")
@@ -40,7 +40,7 @@ function Get-Newsdata {
 
     $uri += "?" + $queryString.ToString()
 	
-	write-verbose $uri -verbose
+    write-verbose $uri -verbose
 
     $client = New-Object System.Net.Http.HttpClient
     $response = $client.GetAsync($uri).Result
@@ -49,9 +49,7 @@ function Get-Newsdata {
     return $result
 }
 
-#https://newsdata.io/api/1/archive?apikey=pub_221372b0f58522823328d361f07fac7fa40cf&q=example&language=en&from_date=2023-01-19&to_date=2023-01-25
-
-Categories
-business
-technology
-top
+<# 
+($data | Convertfrom-Json).results | fl title,link,keywords,country,description,pubdate,creator
+($data | Convertfrom-Json).results | ?{$_.keywords -match "crypto"} | fl title,link,keywords,country,description,pubdate,creator
+#>
