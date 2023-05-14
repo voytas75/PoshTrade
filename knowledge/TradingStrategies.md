@@ -15,3 +15,11 @@ Here are some common types of trading strategies:
 5. Arbitrage: Arbitrage strategies involve taking advantage of price differences between two or more securities in different markets or between different types of securities. Traders using arbitrage strategies typically buy and sell securities simultaneously to lock in a profit.
 
 When developing a trading strategy, it is essential to consider various factors such as the risk-reward ratio, position sizing, and stop-loss levels. Traders also need to be mindful of market conditions and adjust their strategies accordingly. Finally, backtesting and simulation can be useful tools for evaluating the performance of a trading strategy before deploying it in live trading.
+
+## Source
+
+- Investopedia: [Trading Strategy](https://www.investopedia.com/terms/t/trading-strategy.asp)
+- Trading [Strategy Guides](https://tradingstrategyguides.com/)
+- E*TRADE: [Trading Strategies](https://www.etrade.com/knowledge/education/trading-strategy)
+- Warrior Trading: [Day Trading Strategies for Beginners](https://www.warriortrading.com/day-trading-strategies-beginners/)
+- The Balance: [Trading Strategies for Beginners](https://www.thebalance.com/trading-strategies-for-beginners-4161422)

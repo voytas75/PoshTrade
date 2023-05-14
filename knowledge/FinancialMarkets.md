@@ -11,3 +11,9 @@ Financial markets can also be influenced by various types of market participants
 Another important aspect of financial markets is the regulation of trading activities. Regulatory bodies such as the Securities and Exchange Commission (SEC) in the United States and the Financial Conduct Authority (FCA) in the UK oversee financial markets and enforce rules and regulations to protect investors and maintain market integrity.
 
 Overall, financial markets play a critical role in the global economy by facilitating the flow of capital and enabling investors to grow their wealth. They are complex and dynamic, influenced by a range of factors and subject to regulatory oversight. Understanding financial markets is essential for anyone looking to invest or trade in these markets, whether as an individual or institutional investor.
+
+## Sources
+
+- Investopedia: [Financial Markets](https://www.investopedia.com/terms/f/financialmarket.asp)
+- IMF: [What Are Financial Markets?](https://www.imf.org/external/pubs/ft/fandd/basics/markets.htm)
+- The Balance: [Types of Financial Markets and Their Roles](https://www.thebalance.com/types-of-financial-markets-and-their-roles-4048170)
