@@ -44,16 +44,16 @@ The PoshTrade repository will soon include several scripts that implement differ
 
 ## Knowledge
 
-1. [Technical indicators](./TechnicalIndicators.md)
-2. [Financial Markets](./FinancialMarkets.md)
-3. [Trading Strategies](./TradingStrategies.md)
-4. [Technical Analysis](./TechnicalAnalysis.md)
-5. [Fundamental Analysis](./FundamentalAnalysis.md)
-6. [Quantitative Skills](./QantitativeSkills.md)
-7. [Risk Management](./RiskManagement.md)
-8. [Market Data and APIs](./MarketDanaAPIs.md)
-9. [Backtesting and Simulation](./BacktestingSimulation.md)
-10. [Regulatory and Legal Considerations](./Regulatory.md)
+1. [Technical indicators](./knowledge/TechnicalIndicators.md)
+2. [Financial Markets](./knowledge/FinancialMarkets.md)
+3. [Trading Strategies](./knowledge/TradingStrategies.md)
+4. [Technical Analysis](./knowledge/TechnicalAnalysis.md)
+5. [Fundamental Analysis](./knowledge/FundamentalAnalysis.md)
+6. [Quantitative Skills](./knowledge/QantitativeSkills.md)
+7. [Risk Management](./knowledge/RiskManagement.md)
+8. [Market Data and APIs](./knowledge/MarketDanaAPIs.md)
+9. [Backtesting and Simulation](./knowledge/BacktestingSimulation.md)
+10. [Regulatory and Legal Considerations](./knowledge/Regulatory.md)
 
 ## Contributing
 

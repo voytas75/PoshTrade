@@ -27,3 +27,9 @@
 Some of the most commonly used technical indicators in algorithmic trading include Moving Averages, Relative Strength Index (RSI), Stochastic Oscillator, Moving Average Convergence Divergence (MACD), and Bollinger Bands.
 
 Moving Averages are used to identify trends in the market by smoothing out price fluctuations, making them easier to interpret. RSI is used to measure the momentum of a stock's price, and to determine whether it is overbought or oversold. Stochastic Oscillator is another momentum indicator that compares the closing price of a stock to its price range over a set period of time, helping to identify potential reversal points. MACD is a trend-following momentum indicator that uses moving averages to identify changes in momentum, and Bollinger Bands use standard deviations to measure a stock's volatility and identify potential buy and sell signals.
+
+## Sources
+
+- Investopedia: [Technical Indicators](https://www.investopedia.com/terms/t/technicalindicator.asp)
+- TradingView: [Technical Indicators](https://www.tradingview.com/ideas/technical-indicators/)
+- TD Ameritrade: [Introduction to Technical Analysis](https://www.tdameritrade.com/education/technical-analysis.page)
