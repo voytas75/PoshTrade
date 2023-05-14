@@ -40,7 +40,7 @@ function Get-Newsdata {
 
     $uri += "?" + $queryString.ToString()
 	
-    write-verbose $uri -verbose
+    #write-verbose $uri -verbose
 
     $client = New-Object System.Net.Http.HttpClient
     $response = $client.GetAsync($uri).Result
