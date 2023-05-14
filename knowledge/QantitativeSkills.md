@@ -15,3 +15,11 @@ Some of the key areas of quantitative skills in finance include:
 5. Machine learning and artificial intelligence: Machine learning and artificial intelligence (AI) techniques are increasingly being used in finance to develop predictive models and automate trading strategies. Quantitative analysts need to have a good understanding of these techniques and their applications in finance.
 
 Quantitative skills are becoming increasingly important in the financial industry, as the use of technology and automation continues to grow. Traders and analysts who possess strong quantitative skills are in high demand, as they are able to analyze and interpret complex financial data, develop sophisticated trading strategies, and manage risks effectively.
+
+## Sources
+
+- Investopedia: [Quantitative Analysis](https://www.investopedia.com/terms/q/quantitativeanalysis.asp)
+- QuantStart: [Quantitative Trading, Algorithmic Trading, and Automated Trading Tutorial](https://www.quantstart.com/quantitative-trading-algorithmic-trading-and-automated-trading-tutorial/)
+- QuantInsti: [Learn Algorithmic Trading from Experts](https://quantra.quantinsti.com/)
+- Coursera: [Financial Engineering and Risk Management Part I](https://www.coursera.org/learn/financial-engineering-1)
+- Udemy: [Algorithmic Trading and Finance Models with Python, R, and Stata](https://www.udemy.com/course/algorithmic-trading-and-finance-models-with-python-r-stata/)
