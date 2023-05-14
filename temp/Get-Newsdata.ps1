@@ -52,4 +52,6 @@ function Get-Newsdata {
 <# 
 ($data | Convertfrom-Json).results | fl title,link,keywords,country,description,pubdate,creator
 ($data | Convertfrom-Json).results | ?{$_.keywords -match "crypto"} | fl title,link,keywords,country,description,pubdate,creator
+
+$api = Read-Host -AsSecureString "API"; $data = Get-Newsdata -apiKey ($api | ConvertFrom-SecureString -AsPlainText ) -q "crypto" -language "en"; ($data | Convertfrom-Json).results | fl title,link,keywords,country,description,pubdate,creator; while(-not ($null -eq ($data | Convertfrom-Json).nextpage)){$data = Get-Newsdata -apiKey ($api | ConvertFrom-SecureString -AsPlainText) -q "crypto" -language "en" -page ($data | Convertfrom-Json).nextpage; ($data | Convertfrom-Json).results | fl title,link,keywords,country,description,pubdate,creator; Read-Host "[ENTER]"}
 #>
