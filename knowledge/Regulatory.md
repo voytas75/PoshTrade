@@ -7,3 +7,11 @@ Regulations can vary by country, but generally aim to ensure fairness, transpare
 In addition to regulations, traders and investors must also be aware of legal considerations when operating in financial markets. This includes issues such as contract law, intellectual property law, and international trade law. Traders and investors may also need to comply with data privacy and security regulations, particularly when using market data and APIs.
 
 Failure to comply with regulations and laws can result in fines, legal action, and reputational damage. As such, it is important for traders and investors to have a strong understanding of the regulatory and legal landscape in the markets they operate in, and to take steps to ensure compliance. This may involve working with legal and compliance professionals, implementing risk management strategies, and conducting regular audits and reviews of compliance procedures.
+
+## Sources
+
+- [Securities and Exchange Commission (SEC)](https://www.sec.gov/)
+- [Commodity Futures Trading Commission (CFTC)](https://www.cftc.gov/)
+- [Financial Industry Regulatory Authority (FINRA)](https://www.finra.org/)
+- [National Futures Association (NFA)](https://www.nfa.futures.org/)
+- [Investopedia - Regulatory Bodies That Regulate the Financial Industry](https://www.investopedia.com/articles/investing/031316/regulatory-bodies-regulate-financial-industry.asp)
