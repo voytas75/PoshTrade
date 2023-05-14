@@ -1,6 +1,6 @@
 # Market Data and APIs
 
-Market data and APIs (application programming interfaces) are important tools for traders and investors to access and analyze financial market data. 
+Market data and APIs (application programming interfaces) are important tools for traders and investors to access and analyze financial market data.
 
 Market data refers to real-time or historical information about financial securities and their prices, such as stock prices, bond yields, and commodity prices. Market data can be used to make informed trading and investment decisions, as well as to develop and test trading strategies.
 
@@ -11,3 +11,11 @@ There are a variety of APIs available for accessing market data, including REST 
 Access to market data and APIs can be expensive and may require a subscription or license from a market data provider. Traders and investors must also be aware of any legal or regulatory requirements for accessing and using market data, particularly in relation to data privacy and security.
 
 Overall, market data and APIs are important tools for traders and investors to access and analyze financial market data. They can help traders and investors make informed trading decisions and develop and test trading strategies.
+
+## Sources
+
+- [Yahoo Finance API](https://finance.yahoo.com/)
+- [Alpha Vantage API](https://www.alphavantage.co/)
+- [Quandl API](https://www.quandl.com/)
+- [Polygon API](https://polygon.io/)
+- [Barchart OnDemand API](https://www.barchart.com/ondemand)
