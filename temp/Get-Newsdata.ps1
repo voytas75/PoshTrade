@@ -1,4 +1,5 @@
 function Get-Newsdata {
+    [CmdletBinding()]
     param(
         [string]$apiKey,
         [string]$q,
