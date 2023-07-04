@@ -37,7 +37,7 @@ function Get-BollingerBands {
         [int]$period = 20,
 
         [Parameter(Mandatory = $false)]
-        [ValidateRange(1, [int]::MaxValue)]
+        [ValidateRange(0, [int]::MaxValue)]
         [int]$num_std_devs = 2
     )
 
@@ -51,7 +51,7 @@ function Get-BollingerBands {
     $lower_band = $ma_value - ($num_std_devs * $stdev)
 
     # Output Bollinger Bands
-    Write-Host "The Bollinger Bands for $symbol are: Upper Band = $upper_band, Lower Band = $lower_band."
+    Write-Output "The Bollinger Bands for $symbol are: Upper Band = $upper_band, Lower Band = $lower_band."
 }
 
 <# 
