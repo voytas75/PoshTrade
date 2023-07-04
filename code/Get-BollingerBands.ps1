@@ -1,4 +1,27 @@
 function Get-BollingerBands {
+    <#
+    .EXAMPLE
+    $symbol = "BTC/USD"
+    $prices = @(
+        [pscustomobject]@{ date = "2022-01-01"; close = 50000 },
+        [pscustomobject]@{ date = "2022-01-02"; close = 55000 },
+        [pscustomobject]@{ date = "2022-01-03"; close = 52000 },
+        [pscustomobject]@{ date = "2022-01-04"; close = 48000 },
+        [pscustomobject]@{ date = "2022-01-05"; close = 49000 },
+        [pscustomobject]@{ date = "2022-01-06"; close = 51000 },
+        [pscustomobject]@{ date = "2022-01-07"; close = 53000 },
+        [pscustomobject]@{ date = "2022-01-08"; close = 56000 },
+        [pscustomobject]@{ date = "2022-01-09"; close = 59000 },
+        [pscustomobject]@{ date = "2022-01-10"; close = 61000 }
+    )
+    Get-BollingerBands -symbol $symbol -prices $prices -period 20 -num_std_devs 2
+
+    .NOTES
+    Author: Wojciech Napierała
+    Date: 04.07.2023
+    Version: 1.1
+    #>
+
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]
