@@ -2,14 +2,26 @@ function Get-CCI {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]
+        [ValidateNotNullOrEmpty()]
         [double[]]$HighPrices,
+
         [Parameter(Mandatory = $true)]
+        [ValidateNotNullOrEmpty()]
         [double[]]$LowPrices,
+
         [Parameter(Mandatory = $true)]
+        [ValidateNotNullOrEmpty()]
         [double[]]$ClosePrices,
+
         [Parameter(Mandatory = $true)]
+        [ValidateRange(1, [int]::MaxValue)]
         [int]$Period
     )
+
+    # Input validation
+    if ($HighPrices.Length -ne $LowPrices.Length -or $LowPrices.Length -ne $ClosePrices.Length) {
+        throw "Input arrays must have the same length."
+    }
 
     $typicalPrices = for ($i = 0; $i -lt $ClosePrices.Length; $i++) {
         ($HighPrices[$i] + $LowPrices[$i] + $ClosePrices[$i]) / 3
