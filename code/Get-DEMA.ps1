@@ -19,9 +19,14 @@ function Get-DEMA {
     Get-DEMA -DataPoints 1, 2, 3, 4, 5 -Period 3
     Calculates the DEMA for the data points [1, 2, 3, 4, 5] using a period of 3.
 
+.EXAMPLE
+    $data = @(50.10, 51.20, 52.30, 53.40, 54.50, 55.60, 56.70, 57.80, 58.90, 60.00, 61.10, 62.20, 63.30, 64.40, 65.50)
+    Get-DEMA -DataPoints $data -Period 5
+
 .NOTES
     Author: Wojciech Napierała
     Date: 04.07.2023
+    Version: 1.1
 #>
 
     [CmdletBinding()]

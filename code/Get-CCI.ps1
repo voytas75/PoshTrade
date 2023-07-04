@@ -1,4 +1,27 @@
 function Get-CCI {
+    <#
+    .EXAMPLE
+    Example usage with historical data from Coingecko API
+
+    $baseUrl = "https://api.coingecko.com/api/v3"
+    $coinId = "bitcoin"
+    $days = 30
+    $url = "$baseUrl/coins/$coinId/market_chart?vs_currency=usd&days=$days"
+    $response = Invoke-RestMethod -Uri $url
+    $prices = $response.prices
+    $highPrices = $prices | ForEach-Object { $_[1] }
+    $lowPrices = $prices | ForEach-Object { $_[2] }
+    $closePrices = $prices | ForEach-Object { $_[1] }
+    $period = 20
+    $cci = Get-CCI -HighPrices $highPrices -LowPrices $lowPrices -ClosePrices $closePrices -Period $period
+    Write-Output $cci
+
+    .NOTES
+    Author: Wojciech Napierała
+    Date: 04.07.2023
+    Version: 1.1
+    #>
+
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]
