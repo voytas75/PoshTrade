@@ -32,4 +32,4 @@ Moving Averages are used to identify trends in the market by smoothing out price
 
 - Investopedia: [Technical Indicators](https://www.investopedia.com/terms/t/technicalindicator.asp)
 - TradingView: [Technical Indicators](https://www.tradingview.com/ideas/technical-indicators/)
-- TD Ameritrade: [Introduction to Technical Analysis](https://www.tdameritrade.com/education/technical-analysis.page)
+- TD Ameritrade: [Introduction to Technical Analysis](https://tlc.thinkorswim.com/center/reference/Tech-Indicators)
