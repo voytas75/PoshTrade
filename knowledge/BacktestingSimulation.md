@@ -15,6 +15,6 @@ It is important to note that backtesting and simulation are not foolproof method
 ## Sources
 
 - [Quantopian](https://www.quantopian.com/)
-- [Backtrader](https://www.backtrader.com/)
+- [Backtrader](https://www.backtrader.com/) [repo](https://github.com/mementum/backtrader)
 - [TradingView](https://www.tradingview.com/)
 - [MetaTrader 5 Strategy Tester](https://www.metatrader5.com/en/trading-platform/help/algorithmic_trading/tester)
