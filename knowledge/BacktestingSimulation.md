@@ -18,4 +18,4 @@ It is important to note that backtesting and simulation are not foolproof method
 - [Backtrader](https://www.backtrader.com/)
     - [repo](https://github.com/mementum/backtrader)
 - [TradingView](https://www.tradingview.com/)
-- [MetaTrader 5 Strategy Tester](https://www.metatrader5.com/en/trading-platform/help/algorithmic_trading/tester)
+- [MetaTrader 5 Strategy Tester](https://www.metatrader5.com/en)
