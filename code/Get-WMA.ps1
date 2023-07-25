@@ -1,4 +1,4 @@
-function Get-WMA {
+function Get-WeightedMovingAverage {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]
@@ -23,6 +23,6 @@ function Get-WMA {
 
 <# 
 $dataPoints = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-Get-WMA -DataPoints $dataPoints -Period 3
+Get-WeightedMovingAverage -DataPoints $dataPoints -Period 3
 
 #>
