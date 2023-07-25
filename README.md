@@ -41,7 +41,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 10. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1)
 11. [`Get-TEMA`](/code/Get-TEMA.ps1)
 12. [`Get-VWAP`](/code/Get-VWAP.ps1)
-13. [`Get-WMA`](/code/Get-WMA.ps1)
+13. [`Get-WeightedMovingAverage`](/code/Get-WMA.ps1)
 14. [`Get-MovingAverageRibbon`](./code/Get-MovingAverageRibbon.ps1)
 15. [`Get-ROC`](./code/Get-ROC.ps1)
 16. [`Get-WilliamsRIndicator`](./code/Get-WilliamsRIndicator.ps1)
