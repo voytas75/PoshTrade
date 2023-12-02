@@ -33,6 +33,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 3. [`Get-EMA`](/code/Get-EMA.ps1)
    - updated: 2023-07-04
 4. [`Get-FibonacciRetracement`](/code/Get-FibonacciRetracement.ps1)
+   - updated: 2023-12-02
 5. [`Get-IchimokuCloud`](/code/Get-IchimokuCloud.ps1)
 6. [`Get-MACD`](/code/Get-MACD.ps1)
    - updated: 2023-12-02
