@@ -49,6 +49,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 11. [`Get-TEMA`](/code/Get-TEMA.ps1)
     - updated: 2023-12-02
 12. [`Get-VWAP`](/code/Get-VWAP.ps1)
+    - updated: 2023-12-02
 13. [`Get-WeightedMovingAverage`](/code/Get-WMA.ps1)
 14. [`Get-MovingAverageRibbon`](./code/Get-MovingAverageRibbon.ps1)
 15. [`Get-ROC`](./code/Get-ROC.ps1)
