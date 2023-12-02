@@ -44,6 +44,7 @@ The PoshTrade repository will soon include several scripts that implement differ
    - updated: 2023-12-02
 9. [`Get-SMA`](/code/Get-SMA.ps1)
 10. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1)
+    - updated: 2023-12-02
 11. [`Get-TEMA`](/code/Get-TEMA.ps1)
 12. [`Get-VWAP`](/code/Get-VWAP.ps1)
 13. [`Get-WeightedMovingAverage`](/code/Get-WMA.ps1)
