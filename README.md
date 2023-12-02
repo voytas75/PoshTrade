@@ -43,6 +43,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 8. [`Get-RSI`](/code/Get-RSI.ps1)
    - updated: 2023-12-02
 9. [`Get-SMA`](/code/Get-SMA.ps1)
+   - updated: 2023-12-02
 10. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1)
     - updated: 2023-12-02
 11. [`Get-TEMA`](/code/Get-TEMA.ps1)
