@@ -15,16 +15,16 @@
 .EXAMPLE
     $symbol = "BTC/USD"
     $prices = @(
-         [pscustomobject]@{ date = "2022-01-01"; close = 50000 },
-         [pscustomobject]@{ date = "2022-01-02"; close = 55000 },
-         [pscustomobject]@{ date = "2022-01-03"; close = 55000 },
-         [pscustomobject]@{ date = "2022-01-04"; close = 55033 },
-         [pscustomobject]@{ date = "2022-01-05"; close = 53000 },
-         [pscustomobject]@{ date = "2022-01-06"; close = 52000 },
-         [pscustomobject]@{ date = "2022-01-07"; close = 45000 },
-         [pscustomobject]@{ date = "2022-01-08"; close = 43000 },
-         [pscustomobject]@{ date = "2022-01-09"; close = 42900 },
-         [pscustomobject]@{ date = "2022-01-10"; close = 45000 }
+        [pscustomobject]@{ date = "2022-01-01"; close = 50000 },
+        [pscustomobject]@{ date = "2022-01-02"; close = 55000 },
+        [pscustomobject]@{ date = "2022-01-03"; close = 55000 },
+        [pscustomobject]@{ date = "2022-01-04"; close = 55033 },
+        [pscustomobject]@{ date = "2022-01-05"; close = 53000 },
+        [pscustomobject]@{ date = "2022-01-06"; close = 52000 },
+        [pscustomobject]@{ date = "2022-01-07"; close = 45000 },
+        [pscustomobject]@{ date = "2022-01-08"; close = 43000 },
+        [pscustomobject]@{ date = "2022-01-09"; close = 42900 },
+        [pscustomobject]@{ date = "2022-01-10"; close = 45000 }
     )
     Get-BollingerBands -symbol $symbol -prices $prices -period 10 -num_std_devs 2
 .NOTES
