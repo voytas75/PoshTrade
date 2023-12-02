@@ -1,5 +1,23 @@
 function Get-CCI {
     <#
+    .SYNOPSIS
+    Calculate the Commodity Channel Index (CCI) based on high, low, and close prices.
+
+    .DESCRIPTION
+    This function calculates the Commodity Channel Index (CCI) using the typical prices (average of high, low, and close) and a specified period.
+
+    .PARAMETER HighPrices
+    An array of high prices for the specified period.
+
+    .PARAMETER LowPrices
+    An array of low prices for the specified period.
+
+    .PARAMETER ClosePrices
+    An array of close prices for the specified period.
+
+    .PARAMETER Period
+    The number of periods to calculate the CCI.
+
     .EXAMPLE
     Example usage with historical data from Coingecko API
 
@@ -46,12 +64,15 @@ function Get-CCI {
         throw "Input arrays must have the same length."
     }
 
+    # Calculate typical prices
     $typicalPrices = for ($i = 0; $i -lt $ClosePrices.Length; $i++) {
         ($HighPrices[$i] + $LowPrices[$i] + $ClosePrices[$i]) / 3
     }
 
+    # Calculate Simple Moving Average (SMA)
     $sma = Get-SMA -DataPoints $typicalPrices -Period $Period
 
+    # Calculate Mean Deviation
     $meanDeviation = New-Object 'System.Collections.Generic.List[Double]'
     for ($i = $Period - 1; $i -lt $typicalPrices.Length; $i++) {
         $sum = 0.0
@@ -61,6 +82,7 @@ function Get-CCI {
         $meanDeviation.Add($sum / $Period)
     }
 
+    # Calculate Commodity Channel Index (CCI)
     $cci = New-Object 'System.Collections.Generic.List[Double]'
     for ($i = $Period - 1; $i -lt $typicalPrices.Length; $i++) {
         $cci.Add(($typicalPrices[$i] - $sma[$i - $Period + 1]) / (0.015 * [Math]::Abs($meanDeviation[$i - $Period + 1])))
@@ -86,5 +108,4 @@ $closePrices = $prices | ForEach-Object { $_[1] }
 $period = 20
 $cci = Get-CCI -HighPrices $highPrices -LowPrices $lowPrices -ClosePrices $closePrices -Period $period
 Write-Output $cci
-
 #>

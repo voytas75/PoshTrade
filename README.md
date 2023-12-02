@@ -59,6 +59,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 16. [`Get-WilliamsRIndicator`](./code/Get-WilliamsRIndicator.ps1)
     - updated: 2023-12-02
 17. [`Get-CCI`](./code/Get-CCI.ps1)
+    - updated: 2023-12-02
 
 ## Knowledge
 
