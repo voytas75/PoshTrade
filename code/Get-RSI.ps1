@@ -1,4 +1,17 @@
 function Get-RSI {
+    <#
+    .SYNOPSIS
+    Calculates the Relative Strength Index (RSI) based on given data points and period.
+    
+    .DESCRIPTION
+    This function calculates RSI using the average gain and loss over a specified period.
+    
+    .PARAMETER DataPoints
+    An array of data points for RSI calculation.
+    
+    .PARAMETER Period
+    The period over which to calculate RSI.
+    #>
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]
@@ -7,9 +20,9 @@ function Get-RSI {
         [int]$Period
     )
 
-    $upValues = New-Object 'System.Collections.Generic.List[Double]'
-    $downValues = New-Object 'System.Collections.Generic.List[Double]'
-    $rsiValues = New-Object 'System.Collections.Generic.List[Double]'
+    $upValues = New-Object 'System.Collections.Generic.List[Double]' # List to store positive changes
+    $downValues = New-Object 'System.Collections.Generic.List[Double]' # List to store negative changes
+    $rsiValues = New-Object 'System.Collections.Generic.List[Double]' # List to store calculated RSI values
     $averageGain = 0
     $averageLoss = 0
     $rs = 0
@@ -54,12 +67,11 @@ function Get-RSI {
 }
 
 <# 
-$data = @(34.39, 34.24, 33.68, 33.50, 33.75, 33.25, 32.20, 32.29, 32.31, 33.35, 34.39, 35.35, 35.15, 35.16, 35.23, 34.80, 35.12, 34.87, 34.80, 34.20, 34.34, 34.26, 34.17, 34.07, 33.40, 33.60, 33.26, 32.75, 32.60, 32.69)
+$data = @(34.39, 34.24, ... ) # Array of data points for RSI calculation
 
 # Call the Get-RSI function with a period of 14
 $rsi = Get-RSI -DataPoints $data -Period 14
 
 # Output the results
 $rsi
-
 #>
