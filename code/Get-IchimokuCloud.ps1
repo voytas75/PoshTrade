@@ -1,3 +1,30 @@
+<#
+.SYNOPSIS
+   Calculates Ichimoku Cloud values based on high and low prices.
+.DESCRIPTION
+   This function computes Conversion Line, Base Line, Lead Line A, and Lead Line B for Ichimoku Cloud.
+.PARAMETER HighValues
+   Array of high prices.
+.PARAMETER LowValues
+   Array of low prices.
+.PARAMETER ConversionPeriod
+   Period for Conversion Line calculation.
+.PARAMETER BasePeriod
+   Period for Base Line calculation.
+.PARAMETER LaggingPeriod
+   Period for Lagging Line calculation.
+.PARAMETER Displacement
+   Displacement for Lead Line calculations.
+.EXAMPLE
+   $highValues = 1.2, 1.5, 1.8, 1.6, 1.9, 2.1, 2.3, 2.2, 2.4, 2.5
+   $lowValues = 1.0, 1.3, 1.4, 1.2, 1.6, 1.8, 2.0, 1.9, 2.1, 2.2
+   $cloud = Get-IchimokuCloud -HighValues $highValues -LowValues $lowValues -ConversionPeriod 9 -BasePeriod 26 -LaggingPeriod 52 -Displacement 0
+   $cloud.ConversionLine
+   $cloud.BaseLine
+   $cloud.LeadLineA
+   $cloud.LeadLineB
+#>
+
 function Get-IchimokuCloud {
     [CmdletBinding()]
     param(
@@ -15,6 +42,7 @@ function Get-IchimokuCloud {
         [int]$Displacement = 0
     )
 
+    # Arrays to store calculated values
     $conversionLine = [System.Collections.Generic.List[Double]]::new()
     $baseLine = [System.Collections.Generic.List[Double]]::new()
     $leadLineA = [System.Collections.Generic.List[Double]]::new()
@@ -50,6 +78,7 @@ function Get-IchimokuCloud {
         }
     }
 
+    # Results hashtable
     $result = @{
         ConversionLine = $conversionLine
         BaseLine = $baseLine
@@ -59,19 +88,3 @@ function Get-IchimokuCloud {
 
     $result
 }
-
-<# 
-# Define arrays of high and low values
-$highValues = 1.2, 1.5, 1.8, 1.6, 1.9, 2.1, 2.3, 2.2, 2.4, 2.5
-$lowValues = 1.0, 1.3, 1.4, 1.2, 1.6, 1.8, 2.0, 1.9, 2.1, 2.2
-
-# Call the Get-IchimokuCloud function
-$cloud = Get-IchimokuCloud -HighValues $highValues -LowValues $lowValues -ConversionPeriod 9 -BasePeriod 26 -LaggingPeriod 52 -Displacement 0
-
-# Access the results
-$cloud.ConversionLine
-$cloud.BaseLine
-$cloud.LeadLineA
-$cloud.LeadLineB
-
-#>
