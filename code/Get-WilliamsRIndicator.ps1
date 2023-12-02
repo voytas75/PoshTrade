@@ -40,7 +40,7 @@ function Get-WilliamsRIndicator {
     if ($Close.Count -eq 0) {
         $Close = @()
         for ($i=0; $i -lt $High.Count; $i++) {
-            $Close += $High[$i]
+                $Close += $High[$i]
         }
     }
 
@@ -56,16 +56,31 @@ function Get-WilliamsRIndicator {
 }
 
 <# 
-$url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30"
-$response = Invoke-RestMethod $url
+.SYNOPSIS
+    Calculates the Williams %R indicator for given high, low, and close prices.
 
-$high = $response.prices | ForEach-Object { $_[1] }
-$low = $response.prices | ForEach-Object { $_[1] }
-$close = $response.prices | ForEach-Object { $_[1] }
-$period = 14
+.DESCRIPTION
+    The Get-WilliamsRIndicator function calculates the Williams %R indicator, which measures 
+    the level of overbought or oversold conditions in the market.
 
-$williamsR = Get-WilliamsRIndicator -High $high -Low $low -Close $close -Period $period
+.PARAMETER High
+    An array of high prices.
 
-$williamsR
+.PARAMETER Low
+    An array of low prices.
 
+.PARAMETER Close
+    An array of close prices.
+
+.PARAMETER Period
+    The period over which to calculate the Williams %R indicator.
+
+.EXAMPLE
+    $high = 1..10
+    $low = 5..14
+    $close = 3..12
+    $period = 5
+
+    $williamsR = Get-WilliamsRIndicator -High $high -Low $low -Close $close -Period $period
+    $williamsR
 #>
