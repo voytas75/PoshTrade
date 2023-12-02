@@ -27,7 +27,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 ## Functions
 
 1. [`Get-BollingerBands`](/code/Get-BollingerBands.ps1)
-   - updated: 2023-07-04
+   - updated: 2023-12-02
 2. [`Get-DEMA`](/code/Get-DEMA.ps1)
    - updated: 2023-07-04
 3. [`Get-EMA`](/code/Get-EMA.ps1)
