@@ -1,27 +1,32 @@
-function Get-BollingerBands {
-    <#
-    .EXAMPLE
+<#
+.SYNOPSIS
+    Calculates Bollinger Bands for a given symbol and closing prices.
+.DESCRIPTION
+    This script defines a PowerShell function, Get-BollingerBands, which calculates Bollinger Bands
+    based on the provided symbol and closing prices within a specified period and number of standard deviations.
+.PARAMETER symbol
+    The symbol for which Bollinger Bands are calculated.
+.PARAMETER prices
+    An array of objects containing date and close price properties.
+.PARAMETER period
+    The period for calculating the moving average and standard deviation. Default is 20.
+.PARAMETER num_std_devs
+    The number of standard deviations for calculating upper and lower bands. Default is 2.
+.EXAMPLE
     $symbol = "BTC/USD"
     $prices = @(
         [pscustomobject]@{ date = "2022-01-01"; close = 50000 },
         [pscustomobject]@{ date = "2022-01-02"; close = 55000 },
-        [pscustomobject]@{ date = "2022-01-03"; close = 52000 },
-        [pscustomobject]@{ date = "2022-01-04"; close = 48000 },
-        [pscustomobject]@{ date = "2022-01-05"; close = 49000 },
-        [pscustomobject]@{ date = "2022-01-06"; close = 51000 },
-        [pscustomobject]@{ date = "2022-01-07"; close = 53000 },
-        [pscustomobject]@{ date = "2022-01-08"; close = 56000 },
-        [pscustomobject]@{ date = "2022-01-09"; close = 59000 },
-        [pscustomobject]@{ date = "2022-01-10"; close = 61000 }
+        ...
     )
     Get-BollingerBands -symbol $symbol -prices $prices -period 20 -num_std_devs 2
-
-    .NOTES
+.NOTES
     Author: Wojciech Napierała
     Date: 04.07.2023
     Version: 1.1
-    #>
+#>
 
+function Get-BollingerBands {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]
@@ -53,23 +58,3 @@ function Get-BollingerBands {
     # Output Bollinger Bands
     Write-Output "The Bollinger Bands for $symbol are: Upper Band = $upper_band, Lower Band = $lower_band."
 }
-
-<# 
-# Example usage
-$symbol = "BTC/USD"
-$prices = @(
-    [pscustomobject]@{ date = "2022-01-01"; close = 50000 },
-    [pscustomobject]@{ date = "2022-01-02"; close = 55000 },
-    [pscustomobject]@{ date = "2022-01-03"; close = 52000 },
-    [pscustomobject]@{ date = "2022-01-04"; close = 48000 },
-    [pscustomobject]@{ date = "2022-01-05"; close = 49000 },
-    [pscustomobject]@{ date = "2022-01-06"; close = 51000 },
-    [pscustomobject]@{ date = "2022-01-07"; close = 53000 },
-    [pscustomobject]@{ date = "2022-01-08"; close = 56000 },
-    [pscustomobject]@{ date = "2022-01-09"; close = 59000 },
-    [pscustomobject]@{ date = "2022-01-10"; close = 61000 }
-)
-
-Get-BollingerBands -symbol $symbol -prices $prices -period 20 -num_std_devs 2
-
-#>
