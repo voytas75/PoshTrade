@@ -37,6 +37,7 @@ The PoshTrade repository will soon include several scripts that implement differ
 6. [`Get-MACD`](/code/Get-MACD.ps1)
    - updated: 2023-12-02
 7. [`Get-OBV`](/code/Get-OBV.ps1)
+   - updated: 2023-12-02
 8. [`Get-RSI`](/code/Get-RSI.ps1)
 9. [`Get-SMA`](/code/Get-SMA.ps1)
 10. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1)
