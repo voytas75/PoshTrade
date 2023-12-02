@@ -37,6 +37,7 @@ function Get-ROC {
     )
 
     if ($closePrices.Count -lt $period) {
+        # Not enough data points for calculation
         Write-Error "Not enough data points. Please provide sufficient data for calculation."
         return
     }
