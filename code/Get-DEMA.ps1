@@ -6,6 +6,8 @@ function Get-DEMA {
 .DESCRIPTION
     The Get-DEMA function calculates the Double Exponential Moving Average (DEMA) for a given array of data points.
     It uses the Get-EMA function to calculate the exponential moving averages and then applies the DEMA formula to obtain the DEMA values.
+    This function depends on the following:
+    - Function: Get-EMA (https://github.com/voytas75/PoshTrade/blob/main/code/Get-EMA.ps1)
 
 .PARAMETER DataPoints
     The array of data points for which the DEMA needs to be calculated.

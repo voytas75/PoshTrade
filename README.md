@@ -26,40 +26,25 @@ The PoshTrade repository will soon include several scripts that implement differ
 
 ## Functions
 
-1. [`Get-BollingerBands`](/code/Get-BollingerBands.ps1)
-   - updated: 2023-12-02
-2. [`Get-DEMA`](/code/Get-DEMA.ps1)
-   - updated: 2023-07-04
-3. [`Get-EMA`](/code/Get-EMA.ps1)
-   - updated: 2023-07-04
-4. [`Get-FibonacciRetracement`](/code/Get-FibonacciRetracement.ps1)
-   - updated: 2023-12-02
-5. [`Get-IchimokuCloud`](/code/Get-IchimokuCloud.ps1)
-   - updated: 2023-12-02
-6. [`Get-MACD`](/code/Get-MACD.ps1)
-   - updated: 2023-12-02
-7. [`Get-OBV`](/code/Get-OBV.ps1)
-   - updated: 2023-12-02
-8. [`Get-RSI`](/code/Get-RSI.ps1)
-   - updated: 2023-12-02
-9. [`Get-SMA`](/code/Get-SMA.ps1)
-   - updated: 2023-12-02
-10. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1)
-    - updated: 2023-12-02
-11. [`Get-TEMA`](/code/Get-TEMA.ps1)
-    - updated: 2023-12-02
-12. [`Get-VWAP`](/code/Get-VWAP.ps1)
-    - updated: 2023-12-02
-13. [`Get-WeightedMovingAverage`](/code/Get-WMA.ps1)
-    - updated: 2023-12-02
-14. [`Get-MovingAverageRibbon`](./code/Get-MovingAverageRibbon.ps1)
-    - updated: 2023-12-02
-15. [`Get-ROC`](./code/Get-ROC.ps1)
-    - updated: 2023-12-02
-16. [`Get-WilliamsRIndicator`](./code/Get-WilliamsRIndicator.ps1)
-    - updated: 2023-12-02
-17. [`Get-CCI`](./code/Get-CCI.ps1)
-    - updated: 2023-12-02
+1. [`Get-BollingerBands`](/code/Get-BollingerBands.ps1) *(updated: 2023-12-02)*
+2. [`Get-DEMA`](/code/Get-DEMA.ps1) *(updated: 2023-07-04)*
+   - Dependiecies: [`Get-EMA`](/code/Get-EMA.ps1)
+3. [`Get-TEMA`](/code/Get-TEMA.ps1) *(updated: 2023-12-02)*
+   - Dependiecies: [`Get-EMA`](/code/Get-EMA.ps1)
+4. [`Get-EMA`](/code/Get-EMA.ps1) *(updated: 2023-07-04)*
+5. [`Get-WeightedMovingAverage`](/code/Get-WMA.ps1) *(updated: 2023-12-02)*
+6. [`Get-FibonacciRetracement`](/code/Get-FibonacciRetracement.ps1) *(updated: 2023-12-02)*
+7. [`Get-IchimokuCloud`](/code/Get-IchimokuCloud.ps1) *(updated: 2023-12-02)*
+8. [`Get-MACD`](/code/Get-MACD.ps1) *(updated: 2023-12-02)*
+9. [`Get-OBV`](/code/Get-OBV.ps1) *(updated: 2023-12-02)*
+10. [`Get-RSI`](/code/Get-RSI.ps1) *(updated: 2023-12-02)*
+11. [`Get-SMA`](/code/Get-SMA.ps1) *(updated: 2023-12-02)*
+12. [`Get-StochasticOscillator`](/code/Get-StochasticOscillator.ps1) *(updated: 2023-12-02)*
+13. [`Get-VWAP`](/code/Get-VWAP.ps1) *(updated: 2023-12-02)*
+14. [`Get-MovingAverageRibbon`](./code/Get-MovingAverageRibbon.ps1) *(updated: 2023-12-02)*
+15. [`Get-ROC`](./code/Get-ROC.ps1) *(updated: 2023-12-02)*
+16. [`Get-WilliamsRIndicator`](./code/Get-WilliamsRIndicator.ps1) *(updated: 2023-12-02)*
+17. [`Get-CCI`](./code/Get-CCI.ps1) *(updated: 2023-12-02)*
 
 ## Knowledge
 

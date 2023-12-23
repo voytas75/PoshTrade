@@ -5,6 +5,9 @@ Calculates the Triple Exponential Moving Average (TEMA) for a given set of data 
 .DESCRIPTION
 The Get-TEMA function calculates the TEMA using the Exponential Moving Average (EMA) for a given set of data points.
 It returns a list of TEMA values.
+This function depends on the following:
+- Function: Get-EMA (https://github.com/voytas75/PoshTrade/blob/main/code/Get-EMA.ps1)
+
 
 .PARAMETER DataPoints
 The array of data points for which to calculate the TEMA.
