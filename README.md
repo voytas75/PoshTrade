@@ -59,6 +59,26 @@ The PoshTrade repository will soon include several scripts that implement differ
 9. [Backtesting and Simulation](./knowledge/BacktestingSimulation.md)
 10. [Regulatory and Legal Considerations](./knowledge/Regulatory.md)
 
+## Tools
+
+For financial analysis and algorithm development, the following tools are commonly used due to their extensive libraries and community support:
+
+- **Python**: Highly recommended for financial analysis due to its extensive libraries like pandas, NumPy, matplotlib, yfinance, and PyPortfolioOpt. It's versatile and widely used in algorithmic trading, portfolio management, and risk management.
+
+- **R**: It's a great tool for statistical analysis and modeling in finance. Packages like quantmod, PerformanceAnalytics, and PortfolioAnalytics are specifically designed for financial analysis.
+
+- **MATLAB**: Used by quantitative analysts for complex mathematical computations. It has a dedicated toolbox for financial analysis.
+
+- **SAS**: It's a powerful tool for advanced analytics, business intelligence, data management, and predictive analytics. It's widely used in the banking and insurance industry.
+
+- **Excel/VBA**: Excel is a staple in the finance industry for data analysis, financial modeling, and visualization. VBA is used to automate tasks in Excel.
+
+- **SQL**: It's essential for managing and manipulating structured data. In finance, SQL is used to organize and sift through massive databases of information.
+
+- **Tableau**: It's a leading tool for data visualization, widely used in the financial industry to create insightful reports and dashboards.
+
+- **Bloomberg Terminal**: It's a premium service widely used in finance for real-time financial market data, news, and analytics.
+
 ## Contributing
 
 We welcome contributions to PoshTrade! If you have an idea for a new trading algorithm or want to improve an existing one, please submit a pull request with your changes.
