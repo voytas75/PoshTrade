@@ -2,7 +2,7 @@
 
 ![PoshTrade: PowerShell Trading Algorithms](https://github.com/voytas75/PoshTrade/blob/main/images/trading.png?raw=true "PoshTrade: PowerShell Trading Algorithms")
 
-PoshTrade is a collection of PowerShell scripts that implement various trading algorithms for stock and other financial markets. The algorithms are designed to analyze market data and make buy or sell decisions based on certain criteria.
+PoshTrade is a comprehensive collection of PowerShell scripts implementing various trading algorithms for stock and other financial markets. The scripts analyze market data and make buy or sell decisions based on specific criteria. The repository also includes educational resources on trading strategies, technical and fundamental analysis, risk management, and more.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A6KYBUS)
 
